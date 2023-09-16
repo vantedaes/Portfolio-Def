@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <title>Fabi's Portfolio</title>
+</head>
+<body>
+
+    <!-- Nav Bar -->
+    <header>
+        <nav class="Nav-Bar">
+            <div class="Logo-Container">
+            <p class="Logo-name"> by Fabiola Gonzalez</p>
+            </div>
+            <input class="menu" type="checkbox">
+            <i class="icons fi fi-rr-menu-burger"></i>
+            <i class="icons fi fi-br-cross"></i>
+            <ul class="menu-items">
+               <li><a href="#Aboutme">About me</a></li>
+               <li><a href="#skills">skills</a></li>
+               <li><a href="#Projects">project</a></li>
+               <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- Introduction Section -->
+
+    <section class="Introduction-Section">
+        <div class="Intro-Section-Container">
+        <div class="Profile-Picture-Container">
+            <img class="Profile-Picture" src="./Imagenes/Programming.Girl.Cover.png" alt="Intro-Section_img">
+        </div>
+        <div class="Title-Container">
+            <h1 class="Principal-Title">Hi! I'm Fabiola</h1>
+        </div>
+        </div>
+    </section>
+    <section id="Aboutme"  class="AboutMe-Section">
+        <div class="Boxes-Comic-Container">
+            <h1> About me</h1>
+            <div class="Box-one">
+               <p class="BoxOne-Content"> Hi! My name is Fabiola and i'm a Front-end Developer as well as a web designer</p>
+               <img class="BoxOne-Picture-png" src="./Imagenes/programming.me.png2.png" alt="Prommaming girl" width="179px">
+            </div>
+            <div class="Box-two">
+                <p class="BoxTwo-Content"> I've also dabelled in graphic desing and Ux/Ui desing.
+                    I'm also a gamer and wish in the future to enter the world of programming games.
+                </p>
+                <img class="BoxTwo-Picture-png" src="./Imagenes/Programming.me.png.png" alt="Programming-Girl" width="170px">
+            </div>
+        </div>
+    </section>
+
+<!-- Skills Section -->
+
+    <section id="skills" class="Skills">
+        <div class="Title-container">
+            <h1> My Skills! </h1>
+        </div>
+        <div class="Strip-Section-Container">
+
+            <!-- FIRST INNER CONTAINER -->
+
+            <div class="Strip-Skills-First-Cont">
+                <a class="Strip-Skills-HTML" href="#">
+                    <p class="html-title">HTML</p>
+                <img  class="icon-html"  src="./icons/icon.html.png" alt="Icon-Htmml">
+                </a>
+                 <a href="#mbc" class="Strip-Skills-Css">
+                <img class="icon-css" src="./icons/icon.css.png" alt="Icon-css"> 
+                <p class="css-title">CSS</p>
+                </a> 
+            </div>
+
+            <!-- SECOND INNER CONTAINER -->
+
+            <div class="Strip-Skills-Second-Cont">
+                <a href="#" class="Strip-Skills-Figma">
+                <p class="figma-title">Figma</p> 
+                <img class="icon-figma" src="icons/icon.figma.png" alt="Icon-Figma">
+                </a>
+                 <a href="#" class="Strip-Skills-Github">
+                 <img class="icon-github" src="./icons/github.icon.png" alt="icon-github"> <p class="github-title">Github </p>
+                </a>
+            </div>
+        </div>
+      </section>
+
+<!-- Projects Section -->
+
+      <section class="Projects-Section">
+        <div class="Prin-Projects-Container">
+
+            <!-- FIRST PROJECT -->
+
+           <div id="Projects" class="MyProjects-TitleCont">
+                <h1 class="Projects-Title"> My Projects...</h1>
+            </div>
+        <div class="KaiWbsite-Container">
+            <a href="#" class="KaiPromo-Project">
+                <p class="Projectone-text">Kai promo website</p>
+                <img class="KaiPromo-Website" src="./Imagenes/kai.jpg" alt="" width="80px">
+            </a>
+        </div>
+        <!-- SECOND PROJECT -->
+
+        <div class="BaekhyunWbsite-Container">
+            <a href="https://vantedaes.github.io/Exo-Another-Day-Galllery/" class="BaekhyunPromo-Project">
+                <p class="Project-two-text"> Baekhyun promo website</p>
+                <img class="BbhPromo-Website" src="./Imagenes/pcy.png.png" alt="" width="80px">
+            </a>
+        </div>
+        <!-- THIRD PROJECT -->
+
+        <div class="KyungsooWbsite-Container">
+            <a href="https://vantedaes.github.io/d.k.s/" class="KyungsooPromo-Project">
+                <p class="Project-three-text"> Kyungsoo promo website</p>
+                <img class="kyungsooPromo-Website" src="./Imagenes/kyungsoo.png.png" alt="" width="80px">
+            </a>
+        </div>
+    </section>
+
+    <!-- FORM SECTION -->
+
+    <section id="contact" class="ContactForm-Section">
+    <form action="Form" class="Contact-Form">
+        <h2 class="Form-Title">
+            Let's Connect!
+        </h2>
+        <div class="YourName-FormText">
+            <label for="Name"> Your name </label>
+            <input type="text" placeholder="Write your name" id="name">
+        </div>
+        <div class="YourLastname-FormText">
+            <label for="Last Name"> Your Last name</label>
+            <input type="text" placeholder="Write your lastname" id="last name">
+        </div>
+        <div class="Email-FormHolder">
+            <label for="E-mail"> E-mail </label>
+            <input type="email" placeholder="your@email.com">
+        </div>
+        <div class="Phone-FormHolder">
+            <label for="Phone">Your number</label>
+            <input type="text" placeholder="Your phone number">
+        </div>
+        <div class="Message-Holder">
+            <label for="Message"> What's on your mind</label>
+            <textarea name="Message" id="message" cols="30" rows="10"> Write a Message</textarea>
+        </div>
+        <div class="send-form">
+            <input type="submit" value="submit">
+        </div>
+    </form>
+    </section>
+    <footer class="Endofpage-Footer">
+        <p class="Footer-Text"> You can also find me here</p>
+        <div class="Icons-Container">
+
+            <a href="https://www.instagram.com/vantedaes/?igshid=OGQ5ZDc2ODk2ZA%3D%3D">
+                <img src="./icons/ig.icon.png" alt="instagram-Icon">
+            </a>
+            <a href="https://www.behance.net/fabiolagonzalez6"> <img src="./icons/behance.icon.png" alt="Behance-Icon"> 
+            </a>
+            <a href="https://www.linkedin.com/in/fabiola-gonzalez-20205116b/"> 
+                <img src="./icons/linkedin.icon.png" alt="linkedin-Icon">
+            </a>
+        </div>
+        <p class="My-Credits">
+            <span> Ⓒ  2023 by Fabiola Gonzalez  </span>
+        </p>
+    </footer>
+</body>
+</html>
